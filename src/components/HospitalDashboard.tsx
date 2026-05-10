@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { LogOut, Users, Activity, AlertCircle, Plus, Edit, Trash2, CheckCircle, XCircle } from 'lucide-react';
+import { LogOut, Users, Activity, AlertCircle, Plus, CreditCard as Edit, Trash2, CheckCircle, XCircle } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 import type { Hospital, Doctor, EmergencyRequest } from '../types/database';
 
